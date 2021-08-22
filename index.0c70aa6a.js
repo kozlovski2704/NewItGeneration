@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".to_do"),o=document.querySelector(".in_progress"),r=document.querySelector(".done"),t=document.querySelector("#card_drop");function n(e){e.preventDefault()}function d(e){var o=e.dataTransfer.getData("id");console.log(o),e.target.append(document.getElementById(o))}e.ondragover=n,o.ondragover=n,r.ondragover=n,t.ondragStart=function(e){e.dataTransfer.setData("id",e.target.id)},e.ondrop=d,o.ondrop=d,r.ondrop=d}();
+//# sourceMappingURL=index.0c70aa6a.js.map
